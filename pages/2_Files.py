@@ -24,7 +24,7 @@ def save_uploaded_file(uploaded_file):
         f.write(uploaded_file.getbuffer())
     return file_path
 
-st.title("📁 File Management")
+st.title("📁 Knowledge Base File Management")
 
 # File upload section
 st.header("Upload Files")
